@@ -1,9 +1,6 @@
 services:
   - type: web
-    name: line-webhook
-    env: python
+    name: webhook
+    runtime: python
     buildCommand: ""
     startCommand: ./start.sh
-    envVars:
-      - key: PORT
-        value: 10000
