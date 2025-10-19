@@ -3,4 +3,4 @@ services:
     name: webhook
     runtime: python
     buildCommand: ""
-    startCommand: ./start.sh
+    startCommand: "python3 webhook_server.py"
